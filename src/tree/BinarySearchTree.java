@@ -2,7 +2,7 @@ package tree;
 
 public class BinarySearchTree {
   // 트리의 노드를 나타내는 클래스
-  private static class Node {
+  private static class Node { // static inner class
     // 담고있는 데이터
     int key;
     // 왼쪽 자식
@@ -22,7 +22,7 @@ public class BinarySearchTree {
   // 데이터 추가
   // 데이터를 탐색해서 실패한 위치까지 가서 데이터(새로운 노드)를 추가해준다.
   public void insert(int key) {
-    root = insertNode(root, key);
+    root = insertNode(root, key); // 루트를 기준으로 key를 탐색, 실패할 경우 새 노드를 만든다.
   }
 
   private Node insertNode(Node node, int key) {
