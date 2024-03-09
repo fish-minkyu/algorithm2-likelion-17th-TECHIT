@@ -16,16 +16,19 @@ public class UsingPriorityQueue {
 
   public static void main(String[] args) {
     // mst, 최단거리를 구하는 알고리즘에서 우선순위 큐를 사용하면 편하고 빠르게 만들 수 있다.
-    // minHeap이 기본값
-//    PriorityQueue<Integer> intPQueue = new PriorityQueue<>();
 
-    // maxHeap
+    /* minHeap이 기본값(오름차순)
+    PriorityQueue<Integer> intPQueue = new PriorityQueue<>();
+    */
+
+    // maxHeap (내림차순)
     PriorityQueue<Integer> intPQueue = new PriorityQueue<>((o1, o2) -> o2 - o1);
     intPQueue.add(5);
     intPQueue.add(2);
     intPQueue.add(7);
     intPQueue.add(1);
     intPQueue.add(3);
+
     // poll: 데이터를 제거하고 반환한다.
     Integer min = intPQueue.poll();
     System.out.println(min);
