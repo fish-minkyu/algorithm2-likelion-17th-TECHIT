@@ -5,18 +5,36 @@
 <details>
 <summary><strong> 03/07 Page</strong></summary>
 
-- tree
+- Tree
 <div>TreeArray: 배열로서 표현되는 이진트리 - 전위순회, 중위순회, 후위순회</div>
 <div>BinarySearchTree: 이진 탐색 트리</div>
 
-- heap
+- Heap
 <div>BinaryMaxHeap: Max Heap</div>
 <div>UsingPriorityQueue: 우선순위 큐</div>
 <div>Prob1417: 백준 문제</div>
 
 </details>
 
+이진트리, 완전이진트리, 전위순회, 중위순회, 후위순회에 대해 학습  
 Max Heap, Min Heap에 대해 학습
+
+---
+
+<details>
+<summary><strong>03/08 page</strong></summary>
+
+- Heap
+<div>Prob2075: N번째 큰 수</div>
+<div>Prob15903: 카드 합체 놀이</div>
+
+- Graph
+<div>AdjMatrix: 인접 행렬</div>
+<div>AdjList: 인접 리스트</div>
+
+</details>
+
+---
 
 ## 스팩
 
@@ -24,5 +42,5 @@ Max Heap, Min Heap에 대해 학습
 
 ## GitHub
 
-- 강사님 GitHub
+- 강사님 GitHub  
 [likelion-backend-8-algo2](https://github.com/edujeeho0/likelion-backend-8-algo2)

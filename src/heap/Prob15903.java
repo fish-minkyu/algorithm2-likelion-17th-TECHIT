@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.PriorityQueue;
 
+// 카드 합체 놀이
 // https://www.acmicpc.net/problem/15903
 public class Prob15903 {
   public static void main(String[] args) throws IOException {
