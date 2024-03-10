@@ -31,8 +31,15 @@ Max Heap, Min Heap에 대해 학습
 - Graph
 <div>AdjMatrix: 인접 행렬</div>
 <div>AdjList: 인접 리스트</div>
+<div>DfsAdjMatrix: 그래프 탐색, DFS</div>
+<div>BfsAdjMatrix: 그래프 탐색, BFS</div>
+<div>Maze: 미로 문제</div>
+<div>Programmers43165: 프로그래머스 타겟넘버 문제</div>
 
 </details>
+
+인접 행렬, 인접 리스트, 그래프 탐색(DFS, BFS), 미로 문제에 대해 학습  
+델타 탐색에 대해 뭔지 알아야 풀 수 있는 알고리즘 문제가 있다.
 
 ---
 
