@@ -33,7 +33,7 @@ public class DfsAdjMatrix {
     // 다음 방문할 곳들을 기록하기 위한 Stack을 만든다.
     Stack<Integer> toVisit = new Stack<>();
     // 방문한 순서를 기록하기 위한 List를 만든다.
-    List<Integer> visitOrder = new ArrayList<>();
+    List<Integer> visitedOrder = new ArrayList<>();
     // 방문했다는 사실을 기록하기 위한 boolean[]을 만든다.
     boolean[] visited = new boolean[nodes];
 
@@ -47,7 +47,7 @@ public class DfsAdjMatrix {
       if (visited[next]) continue;
       // 2-3. 방문했다고 표시하자.
       visited[next] = true;
-      visitOrder.add(next);
+      visitedOrder.add(next);
       // 2-4. 다음에 방문할 곳을 찾아본다.
       // 정점들 갯수만큼 확인한다.
 //      for (int i = 0; i < nodes; i++) {
@@ -61,7 +61,7 @@ public class DfsAdjMatrix {
     }
 
     // 결과를 출력한다.
-    System.out.println(visitOrder);
+    System.out.println(visitedOrder);
   }
 
   // --------------------------------------------------------------------------------
