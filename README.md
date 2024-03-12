@@ -35,6 +35,7 @@ Max Heap, Min Heap에 대해 학습
 <div>BfsAdjMatrix: 그래프 탐색, BFS</div>
 <div>Maze: 미로 문제</div>
 <div>Programmers43165: 프로그래머스 타겟넘버 문제</div>
+<div>Programmers1844: 게임 맵 최단거리</div>
 
 </details>
 
@@ -42,6 +43,14 @@ Max Heap, Min Heap에 대해 학습
 델타 탐색에 대해 뭔지 알아야 풀 수 있는 알고리즘 문제가 있다.
 
 ---
+
+<details>
+<summary><strong>03/11 page</strong></summary>
+
+<div>boj2606: 바이러스</div>
+<div>boj2667: 단지번호붙이기</div>
+
+</details>
 
 ## 스팩
 

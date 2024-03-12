@@ -5,7 +5,7 @@ import java.util.Queue;
 
 // 타겟 넘버
 // https://school.programmers.co.kr/learn/courses/30/lessons/43165
-// => 재귀함수 DFS로 풀기, BFS로 풀기
+// => 재귀함수 DFS로 풀기(BFS로도 풀 수가 있다. 하지만 효율적이지 않음)
 public class Programmers43165 {
   private int answer = 0;
 
